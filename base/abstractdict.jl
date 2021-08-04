@@ -19,7 +19,7 @@ An update operation on an `AbstractDict` (`Dict`) or `Set` like object tried to
 use an incompatible key type.
 """
 struct KeyTypeError <: Exception
-    expected_key_tpye
+    expected_key_type
     key
 end
 
